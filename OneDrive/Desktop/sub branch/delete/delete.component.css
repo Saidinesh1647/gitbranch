@@ -1,0 +1,47 @@
+/* delete.component.css */
+
+/* Styles for the delete confirmation container */
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Styles for the confirmation message */
+  .message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the buttons */
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .confirm-button, .cancel-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .confirm-button:hover, .cancel-button:hover {
+    background-color: #c82333;
+  }
+  
