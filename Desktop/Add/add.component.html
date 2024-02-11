@@ -1,0 +1,17 @@
+<!-- add.component.html -->
+
+<div class="container">
+    <h2>Add Item</h2>
+    <form (submit)="addItem()">
+      <div class="form-group">
+        <label for="itemName" class="label">Item Name:</label>
+        <input type="text" id="itemName" class="input" [(ngModel)]="itemName" name="itemName" required>
+      </div>
+      <div class="form-group">
+        <label for="itemDescription" class="label">Item Description:</label>
+        <textarea id="itemDescription" class="input" [(ngModel)]="itemDescription" name="itemDescription" rows="3"></textarea>
+      </div>
+      <button type="submit" class="button">Add Item</button>
+    </form>
+  </div>
+  
